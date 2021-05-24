@@ -1,13 +1,72 @@
-body {
+/* this is the original code from the spool up */
+/* body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
+} */
 
+/* original code from spool up */
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* begin code from the novel tutorial */
+/* At this point, you can use CSS to attach styles to the tableau, dialog area, and menu items. Here is a sample. First, the tableau. The width and height must match the numbers you specified in the call to initNovel(), and the position: relative is required in order to place the image properly within in the tableau. The text-align: center on the body is necessary in order for the tableau to be centered horizontally on the screen when using Internet Explorer. */
+body {
+  text-align: center;
+}
+
+#novelDiv {
+  width: 800px;
+  height: 600px;
+  border: 1px solid black;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  text-align: center;
+}
+
+/* The dialog, in this case, is within the tableau rather than below it. The padding plus the width add up to 800 pixels so that the borders coincide. */
+#dialogDiv {
+  font-family: "Deja Vu Sans", Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  position: absolute;
+  width: 790px;
+  height: 140px;
+  top: 450px;
+  left: 0;
+  padding: 5px;
+  background-color: #3d372c;
+  color: white;
+  text-align: left;
+  filter: alpha(opacity=75);
+  opacity: 0.75;
+}
+
+/* Finally, add styling for menu items. Of course, these sizes and colors are just an example; you may change them to reflect the look you want for your novel. */
+.menuItem {
+  font-family: "Deja Vu Sans", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  background-color: #0050a0;
+  color: white;
+  text-align: center;
+  width: 75%;
+  margin: 0.5em auto;
+  padding: 0.5em 3em;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+}
+
+.menuItem:hover {
+  background-color: #ff8c00;
+}
+
+
+
+
+
+
