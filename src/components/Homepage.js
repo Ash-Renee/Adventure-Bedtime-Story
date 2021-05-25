@@ -20,8 +20,8 @@ const Homepage = () => {
             }
 
                 <Router>
-                    <StoryAStart path="storya" />
-                    <StoryBStart path="storyb" />
+                    <StoryAStart path="storya/*" />
+                    <StoryBStart path="storyb/*" />
                 </Router>
 
         </div>

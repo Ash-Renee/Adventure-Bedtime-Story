@@ -1,8 +1,8 @@
 import React, { useState }from 'react';
 import { Router, Link } from '@reach/router';
-import Story1A1 from './Point1A1';
+import Point1A1 from './Point1A1';
 
-const Point1 = () => {
+const Point1A = () => {
     const [selected, setSelected] = useState(false);
     return (
         <div>
@@ -10,7 +10,7 @@ const Point1 = () => {
                 !selected ? 
                 <>
                 <p>What i loved to do most was</p>
-                <Link onClick = {() => setSelected(true)} to="story1a1">continue</Link>
+                <Link onClick = {() => setSelected(true)} to="1a1">Continue</Link>
 
                 </>
                 :
@@ -18,7 +18,7 @@ const Point1 = () => {
             }
 
                 <Router>
-                    <Story1A1 path="storya/1a" />
+                    <Point1A1 path="1a1/*" />
 
                 </Router>
 
@@ -26,4 +26,4 @@ const Point1 = () => {
     )
 }
 
-export default Point1
+export default Point1A
