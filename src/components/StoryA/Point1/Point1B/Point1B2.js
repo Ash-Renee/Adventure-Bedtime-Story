@@ -13,17 +13,9 @@ const Point1B2 = () => {
                 <div className = "img" style = {
                     {backgroundImage:`url(${A_Start})`}}>
                 <p>HALP!</p>
-<<<<<<< HEAD
-                <Link onClick = {() => setSelected(true)} to="/2c1">me</Link>
-                <Link onClick = {() => setSelected(true)} to="/2d1">you</Link>
-                </div>
-=======
                 <Link onClick = {() => setSelected(true)} to="2c1">me</Link>
-                <br />
-                <br />
                 <Link onClick = {() => setSelected(true)} to="2d1">you</Link>
-                </>
->>>>>>> 1a62302b19d4129c227b32634f821362a9fe1099
+                </div>
                 :
                 ""
             }

@@ -1,11 +1,8 @@
 import React, { useState }from 'react';
 import { Router, Link } from '@reach/router';
 import Point1A1 from './Point1A1';
-<<<<<<< HEAD
-import A_Start from '../../../../images/A_Start.jpeg';
-=======
 import Point1B from '../Point1B/Point1B';
->>>>>>> 1a62302b19d4129c227b32634f821362a9fe1099
+import A_Start from '../../../../images/A_Start.jpeg';
 
 const Point1A = () => {
     const [selected, setSelected] = useState(false);

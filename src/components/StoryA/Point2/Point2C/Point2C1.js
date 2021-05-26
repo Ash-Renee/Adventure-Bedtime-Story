@@ -1,12 +1,8 @@
 import React, { useState }from 'react';
 import { Router, Link } from '@reach/router';
-<<<<<<< HEAD
-import Point2C2 from '/Point2C2';
+import Point2C2 from './Point2C2';
 import A_Start from '../../../../images/A_Start.jpeg';
 
-=======
-import Point2C2 from './Point2C2';
->>>>>>> 1a62302b19d4129c227b32634f821362a9fe1099
 
 
 const Point2C1 = () => {

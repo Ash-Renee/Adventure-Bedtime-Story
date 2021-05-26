@@ -2,6 +2,41 @@
   text-align: center;
 }
 
+
+#wrapper{
+  width: 975px; 
+  min-height: 700px;
+  background-color: silver;
+  margin: 0px auto;
+  padding-top: 5px; 
+}
+#header{
+  min-height: 150px;
+  background-color: green;
+  margin: 15px; 
+}
+
+#main_content{
+  min-height: 475px;
+  width: 760px; 
+  background-color: red;
+  display: inline-block; 
+  margin-left: 15px; 
+}
+
+#footer{
+  min-height: 150px;
+  background-color: green;
+  margin: 15px; 
+}
+
+.img{
+  background-color: green;
+  border: 1px solid black;
+  display: inline-block;
+}
+
+
 /* .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -13,7 +48,7 @@
   }
 } */
 
-.App-header {
+/* .App-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -37,9 +72,12 @@
   }
 }
 
-.img{
-  background-color: green;
-  border: 1px solid black;
-}
+.container{
+  .img{
+    background-color: green;
+    border: 1px solid black;
+  }
+} */
+
 
 /* div with a background color  */
