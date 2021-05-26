@@ -14,7 +14,7 @@ const Point2B1 = () => {
                 <div className = "img" style = {
                     {backgroundImage:`url(${A_Start})`}}>
                 <p>No thanks!</p>
-                <Link onClick = {() => setSelected(true)} to="/2b2">me</Link>
+                <Link onClick = {() => setSelected(true)} to="2b2">me</Link>
 
                 </div>
                 :
@@ -22,7 +22,7 @@ const Point2B1 = () => {
             }
 
                 <Router>
-                    <Point2B2 path="/2b2/*" />
+                    <Point2B2 path="2b2/*" />
 
                 </Router>
 

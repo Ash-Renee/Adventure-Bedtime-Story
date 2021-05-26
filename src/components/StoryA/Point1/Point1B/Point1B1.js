@@ -12,14 +12,19 @@ const Point1B1 = () => {
                 <div className = "img" style = {
                     {backgroundImage:`url(${A_Start})`}}>
                 <p>HALP!</p>
+<<<<<<< HEAD
                 <Link onClick = {() => setSelected(true)} to="/1b2">Continue</Link>
                 </div>
+=======
+                <Link onClick = {() => setSelected(true)} to="1b2">Continue</Link>
+                </>
+>>>>>>> 1a62302b19d4129c227b32634f821362a9fe1099
                 :
                 ""
             }
 
                 <Router>
-                    <Point1B2 path="/1b2/*" />
+                    <Point1B2 path="1b2/*" />
 
                 </Router>
 
