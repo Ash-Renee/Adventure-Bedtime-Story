@@ -3,6 +3,7 @@ import { Router, Link } from '@reach/router';
 import Point1A1 from './Point1A1';
 import A_Start from '../../../../images/A_Start.jpeg';
 import Point1B from '../Point1B/Point1B';
+import A_Start from '../../../../images/A_Start.jpeg';
 
 
 const Point1A = () => {

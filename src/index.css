@@ -9,10 +9,10 @@
 } */
 
 /* original code from spool up */
-code {
+/* code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-}
+} */
 
 /* begin code from the novel tutorial */
 /* At this point, you can use CSS to attach styles to the tableau, dialog area, and menu items. Here is a sample. First, the tableau. The width and height must match the numbers you specified in the call to initNovel(), and the position: relative is required in order to place the image properly within in the tableau. The text-align: center on the body is necessary in order for the tableau to be centered horizontally on the screen when using Internet Explorer. */

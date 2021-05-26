@@ -11,15 +11,12 @@ const Point1 = () => {
                 <>
                 <p>Hi I'm the princess</p>
                 <Link onClick = {() => setSelected(true)} to="1a">Continue</Link>
-
                 </>
                 :
                 ""
             }
-
                 <Router>
                     <Point1A path="1a/*" />
-
                 </Router>
 
         </div>
