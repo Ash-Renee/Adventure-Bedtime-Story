@@ -10,11 +10,11 @@ const StoryAStart = () => {
         <div>
             {
                 !selected ?
-                    <>
+                    <div className = "img" style = {{backgroundImage:`url(${A_Start})`}}>
                         <p>Hello princess!</p>
-                        <img src={A_Start} alt="starter image" />
+                        {/* <img src={A_Start} alt="starter image" /> */}
                         <Link onClick={() => setSelected(true)} to="1a">Let's Go</Link>
-                    </>
+                    </div>
                     :
                     ""
             }
