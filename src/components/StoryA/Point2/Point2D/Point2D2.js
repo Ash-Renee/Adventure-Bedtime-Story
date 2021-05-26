@@ -11,7 +11,7 @@ const Point2D2 = () => {
                 !selected ? 
                 <>
                 <p>GO THE FUCK TO SLEEP</p>
-                <Link onClick = {() => setSelected(true)} to="/end4">me</Link>
+                <Link onClick = {() => setSelected(true)} to="end4">me</Link>
 
                 </>
                 :
@@ -19,7 +19,7 @@ const Point2D2 = () => {
             }
 
                 <Router>
-                    <End4 path="/end4/*" />
+                    <End4 path="end4/*" />
 
                 </Router>
 

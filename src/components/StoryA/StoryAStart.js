@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Router, Link } from '@reach/router';
-import Point1A from './Point1/Point1A/Point1A';
+import Point1 from './Point1/Point1A/Point1';
 import A_Start from '../../images/A_Start.jpeg';
 
 
@@ -13,13 +13,13 @@ const StoryAStart = () => {
                     <>
                         <p>Hello princess!</p>
                         <img src={A_Start} alt="starter image" />
-                        <Link onClick={() => setSelected(true)} to="1a">Let's Go</Link>
+                        <Link onClick={() => setSelected(true)} to="1">Let's Go</Link>
                     </>
                     :
                     ""
             }
             <Router>
-                <Point1A path="1a/*" />
+                <Point1 path="1/*" />
             </Router>
         </div>
     )

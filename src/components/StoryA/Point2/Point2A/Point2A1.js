@@ -10,14 +10,14 @@ const Point2A1 = () => {
                 !selected ? 
                 <>
                 <p>you got this</p>
-                <Link onClick = {() => setSelected(true)} to="/2a2">Continue</Link>
+                <Link onClick = {() => setSelected(true)} to="2a2">Continue</Link>
                 </>
                 :
                 ""
             }
 
                 <Router>
-                    <Point2A2 path="/2a2*" />
+                    <Point2A2 path="2a2/*" />
 
                 </Router>
 

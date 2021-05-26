@@ -1,17 +1,16 @@
 import React, { useState }from 'react';
 import { Router, Link } from '@reach/router';
-import Point2C2 from './Point2C2';
+import Point1A from './Point1A';
 
-
-const Point2C1 = () => {
+const Point1 = () => {
     const [selected, setSelected] = useState(false);
     return (
         <div>
             {
                 !selected ? 
                 <>
-                <p>No thanks!</p>
-                <Link onClick = {() => setSelected(true)} to="2c2">me</Link>
+                <p>Hi I'm the princess</p>
+                <Link onClick = {() => setSelected(true)} to="1a">Continue</Link>
 
                 </>
                 :
@@ -19,12 +18,12 @@ const Point2C1 = () => {
             }
 
                 <Router>
-                    <Point2C2 path="2c2/*" />
+                    <Point1A path="1a/*" />
 
                 </Router>
 
-</div>
-)
+        </div>
+    )
 }
 
-export default Point2C1
+export default Point1

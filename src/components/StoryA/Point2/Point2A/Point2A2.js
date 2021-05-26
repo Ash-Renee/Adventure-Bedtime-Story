@@ -11,14 +11,14 @@ const Point2A2 = () => {
                 !selected ? 
                 <>
                 <p>Finish him!</p>
-                <Link onClick = {() => setSelected(true)} to="/storya/end1">Conclude</Link>
+                <Link onClick = {() => setSelected(true)} to="end1">Conclude</Link>
                 </>
                 :
                 ""
             }
 
                 <Router>
-                    <EndA1 path="/storya/end1" />
+                    <EndA1 path="end1/*" />
 
                 </Router>
 

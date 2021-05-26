@@ -1,26 +1,22 @@
-import React, { useState }from 'react';
+import React, { useState, useContext }from 'react';
 import { Router, Link } from '@reach/router';
 import Homepage from '../../Homepage';
-
+import Done from '../../../Context/Done';
 
 const EndA1 = () => {
     const [selected, setSelected] = useState(false);
+    const {done, setDone} = useContext(Done);
     return (
         <div>
             {
                 !selected ? 
                 <>
                 <p>Allegedly</p>
-                <Link onClick = {() => setSelected(true)} to="/">Home</Link>
+                <Link onClick = {() => setDone(true)} to="/">Home</Link>
                 </>
                 :
                 ""
             }
-
-                <Router>
-                    <Homepage path="/*" />
-
-                </Router>
 
 </div>
 )
