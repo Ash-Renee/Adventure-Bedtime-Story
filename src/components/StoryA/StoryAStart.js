@@ -15,10 +15,7 @@ const StoryAStart = () => {
                 !selected ?
                 <div>
                     <div className = "img" style = {{backgroundImage:`url(${A_Start})`}}>
-                        
-                        
                     </div>
-
                     <div className = "textBox">
                         <p>This is whre the words go</p>
                         <Link onClick={() => setSelected(true)} to="1">Let's Go</Link>

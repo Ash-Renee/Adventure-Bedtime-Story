@@ -22,6 +22,27 @@ body{
   margin:auto;
 
 }
+
+.textBox{
+  width: 900px;
+  height: 70px;
+  background-color: gray;
+  color: white;
+  position: relative;
+  bottom: 85px;
+  opacity: .85;
+}
+.img{
+  width: 900px; 
+  height: 450px;
+  /* padding: 25px 50px 75px 100px; */
+  /* border: 1px solid black;
+  display: inline-block; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: center;
+}
+
 /* #header{
   min-height: 150px;
   background-color: green;
@@ -41,24 +62,6 @@ body{
   background-color: green;
   margin: 15px; 
 } */
-.textBox{
-  width: 900px;
-  height: 70px;
-  background-color: #fff3;
-  color: white;
-  position: relative;
-  bottom: 85px;
-}
-.img{
-  width: 900px; 
-  height: 450px;
-  /* padding: 25px 50px 75px 100px; */
-  /* border: 1px solid black;
-  display: inline-block; */
-  background-repeat: no-repeat;
-  background-size: cover;
-  align-items: center;
-}
 /* .App-logo {
   height: 40vmin;
   pointer-events: none;
