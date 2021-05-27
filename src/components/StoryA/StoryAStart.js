@@ -4,6 +4,7 @@ import Point1 from './Point1/Point1A/Point1';
 import A_Start from '../../images/A_Start.jpeg';
 
 
+
 const StoryAStart = () => {
     const [selected, setSelected] = useState(false);
     return (
@@ -14,12 +15,15 @@ const StoryAStart = () => {
                 !selected ?
                 <div>
                     <div className = "img" style = {{backgroundImage:`url(${A_Start})`}}>
-                        <Link onClick={() => setSelected(true)} to="1">Let's Go</Link>
+                        
                         
                     </div>
+
                     <div className = "textBox">
                         <p>This is whre the words go</p>
+                        <Link onClick={() => setSelected(true)} to="1">Let's Go</Link>
                     </div>
+
                 </div>
                     :
                     ""
