@@ -13,8 +13,10 @@ const EndA2 = () => {
                 !selected ? 
                 <div className = "img" style = {
                     {backgroundImage:`url(${A_Start})`}}>
+                                        <div className="textBox">
                 <p>Allegedly</p>
                 <Link onClick = {() => setDone(true)} to="/">Home</Link>
+                </div>
                 </div>
                 :
                 ""

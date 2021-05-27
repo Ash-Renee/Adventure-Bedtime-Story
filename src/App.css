@@ -28,16 +28,18 @@ body{
   height: 70px;
   background-color: gray;
   color: white;
-  position: relative;
-  bottom: 85px;
+  /* position: relative;
+  justify-content: center; */
+  bottom: 91px;
+  /* align-items: center; */
   opacity: .85;
 }
 .img{
   width: 900px; 
   height: 450px;
-  /* padding: 25px 50px 75px 100px; */
-  /* border: 1px solid black;
-  display: inline-block; */
+  padding: 25px 50px 75px 100px;
+  border: 1px solid black;
+  display: inline-block;
   background-repeat: no-repeat;
   background-size: cover;
   align-items: center;

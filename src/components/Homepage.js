@@ -16,7 +16,9 @@ const Homepage = (props) => {
             {
                 !selected ? 
                 <>
-                <div className = "img" style = {{backgroundImage:`url(${Starter_Image})`}}></div>
+                <div className = "img" style = {{backgroundImage:`url(${Starter_Image})`}}>
+                    
+                </div>
                 <div className="textBox">
                 <p>Welcome to your bedtime story!  Please choose your story:</p>
                 <Link onClick = {() => setSelected(true)} to="storya">Story A</Link>
