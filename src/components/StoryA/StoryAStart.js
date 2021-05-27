@@ -7,21 +7,30 @@ import A_Start from '../../images/A_Start.jpeg';
 const StoryAStart = () => {
     const [selected, setSelected] = useState(false);
     return (
-        <div>
+    
+        <div className = "wrapper">
             {
+            
                 !selected ?
+                <div>
                     <div className = "img" style = {{backgroundImage:`url(${A_Start})`}}>
-                        <p>Hello princess!</p>
-                        {/* <img src={A_Start} alt="starter image" /> */}
                         <Link onClick={() => setSelected(true)} to="1">Let's Go</Link>
+                        
                     </div>
+                    <div className = "textBox">
+                        <p>This is whre the words go</p>
+                    </div>
+                </div>
                     :
                     ""
+                
             }
+            
             <Router>
                 <Point1 path="1/*" />
             </Router>
         </div>
+    
     )
 }
 
