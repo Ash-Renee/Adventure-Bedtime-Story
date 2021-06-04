@@ -1,7 +1,7 @@
 import React, { useState }from 'react';
 import { Router, Link } from '@reach/router';
 import Point1A1 from './Point1A1';
-import A_Start from '../../../../images/A_Start.jpeg';
+import A_1A_P1 from '../../../../images/A_1A_P1.jpg';
 import Point1B from '../Point1B/Point1B';
 
 
@@ -12,14 +12,14 @@ const Point1A = () => {
         <div className = "wrapper" >
             {
                 !selected ? 
-                <div className = "img" style = {
-                    {backgroundImage:`url(${A_Start})`}}>
-                <p>What i loved to do most was</p>
-                <Link onClick = {() => setSelected(true)} to="1a1">Continue to a</Link>
+                <div>
+                    <div className = "img" style = {{backgroundImage:`url(${A_1A_P1})`}}>
+                    </div>
+                    <div className = "textBox">
+                    <p>DANCE! Katie loved to dance and would often dance for hours without music!</p>
+                <Link onClick = {() => setSelected(true)} to="1a1">I love your dance!</Link>
                 <br />
-                <br />
-                <Link onClick = {() => setSelected(true)} to="1b">got to B</Link>
-
+                </div>
                 </div>
                 :
                 ""
@@ -27,8 +27,6 @@ const Point1A = () => {
 
                 <Router>
                     <Point1A1 path="1a1/*" />
-                    <Point1B path="1b/*" />
-
                 </Router>
 
         </div>
