@@ -1,7 +1,7 @@
 import React, { useState }from 'react';
 import { Router, Link } from '@reach/router';
 import Point1A1 from './Point1A1';
-import A_1A_P1 from '../../../../images/A_1A_P1.jpg';
+import A_1_1A from '../../../../images/A_1_1A.jpg';
 import Point1B from '../Point1B/Point1B';
 
 
@@ -13,7 +13,7 @@ const Point1A = () => {
             {
                 !selected ? 
                 <div>
-                    <div className = "img" style = {{backgroundImage:`url(${A_1A_P1})`}}>
+                    <div className = "starter_image" style = {{backgroundImage:`url(${A_1_1A})`}}>
                     </div>
                     <div className = "textBox">
                     <p>DANCE! Katie loved to dance and would often dance for hours without music!</p>

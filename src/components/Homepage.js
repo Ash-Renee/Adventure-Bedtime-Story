@@ -3,7 +3,7 @@ import { Router, Link } from '@reach/router';
 import StoryAStart from './StoryA/StoryAStart';
 import StoryBStart from './StoryB/StoryBStart';
 import Done from '../Context/Done';
-import Starter_Image from '../images/Starter_Image.jpg';
+import starter_image from '../images/starter_image.jpg';
 
 const Homepage = (props) => {
     const [selected, setSelected] = useState(false);
@@ -12,11 +12,11 @@ const Homepage = (props) => {
         setSelected(false);
     },[done])
     return (
-        <div>
+        <div className="wrapper">
             {
                 !selected ? 
                 <>
-                <div className = "img" style = {{backgroundImage:`url(${Starter_Image})`}}>
+                <div className = "starter_image" style = {{backgroundImage:`url(${starter_image})`}}>
                     
                 </div>
                 <div className="textBox">

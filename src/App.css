@@ -14,6 +14,7 @@ body{
   align-items: center;
   justify-content: center;
   margin:auto;
+  flex-direction: column;
 
 }
 
@@ -38,7 +39,16 @@ body{
   background-size: cover;
   align-items: center;
 }
+.starter_image{
+  width: 500px; 
+  height: 500px;
+  border: 1px solid black;
+  display: block;
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: center;
 
+}
 /* #header{
   min-height: 150px;
   background-color: green;
