@@ -11,22 +11,22 @@ const EndA1 = () => {
     return (
         <div>
             {
-                !selected ? 
-                <div>
-                <div className = "end1" style = {{backgroundImage:`url(${End1})`}}>
+                !selected ?
+                    <div>
+                        <div className="end1" style={{ backgroundImage: `url(${End1})` }}>
                         </div>
                         <div className="textBox2">
-                <p>Behind the door, in the room of the highest tower, there sat Princess
-                    Katie's pet dog, Ruffles.  Ruffles was enjoying the sweet roll he 
-                    had taken from the kitchen!  The friends laughed as Ruffles finished
-                    up the sweet roll and wagged his tail!
+                            <p>Behind the door, in the room of the highest tower, there sat Princess
+                            Katie's pet dog, Ruffles.  Ruffles was enjoying the sweet roll he
+                            had taken from the kitchen!  The friends laughed as Ruffles finished
+                            up the sweet roll and wagged his tail!
                 </p>
-                <Link onClick = {() => setSelected(true)} to="2a2">Continue</Link>
-                <br />
-                </div>
-                </div>
-                :
-                ""
+                            <Link onClick={() => setDone(true)} to="/">Home</Link>
+                            <br />
+                        </div>
+                    </div>
+                    :
+                    ""
             }
 
         </div>

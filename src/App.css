@@ -135,39 +135,12 @@ body{
   /* align-items: center; */
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .textBoxLarge{
   width: 900px;
-  height: 120px;
+  height: 130px;
   background-color: gray;
   color: white;
+  display: inline-block;
   /* position: relative;
   justify-content: center; */
   bottom: 91px;
@@ -175,22 +148,30 @@ body{
   opacity: .85;
 }
 
-/* #header{
-  min-height: 150px;
-  background-color: green;
-  margin: 15px; 
-} */
 
-/* .main_content{
-  min-height: 475px;
-  width: 760px; 
-  background-color: red;
-  display: inline-block; 
-  margin-left: 15px; 
-} */
 
-/* #footer{
-  min-height: 150px;
-  background-color: green;
-  margin: 15px; 
-} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
