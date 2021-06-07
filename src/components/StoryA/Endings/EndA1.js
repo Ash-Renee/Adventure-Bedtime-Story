@@ -1,7 +1,7 @@
 import React, { useState, useContext } from 'react';
 import { Router, Link } from '@reach/router';
 import Homepage from '../../Homepage';
-import A_Start from '../../../images/A_Start.jpeg';
+import End1 from '../../../images/End1.jpg';
 import Done from '../../../Context/Done';
 
 
@@ -11,16 +11,22 @@ const EndA1 = () => {
     return (
         <div>
             {
-                !selected ?
-                    <div className="img" style={
-                        { backgroundImage: `url(${A_Start})` }}>
-                        <div className="textBox">
-                            <p>Allegedly</p>
-                            <Link onClick={() => setDone(true)} to="/">Home</Link>
+                !selected ? 
+                <div>
+                <div className = "end1" style = {{backgroundImage:`url(${End1})`}}>
                         </div>
-                    </div>
-                    :
-                    ""
+                        <div className="textBox2">
+                <p>Behind the door, in the room of the highest tower, there sat Princess
+                    Katie's pet dog, Ruffles.  Ruffles was enjoying the sweet roll he 
+                    had taken from the kitchen!  The friends laughed as Ruffles finished
+                    up the sweet roll and wagged his tail!
+                </p>
+                <Link onClick = {() => setSelected(true)} to="2a2">Continue</Link>
+                <br />
+                </div>
+                </div>
+                :
+                ""
             }
 
         </div>

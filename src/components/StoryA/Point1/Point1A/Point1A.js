@@ -13,7 +13,7 @@ const Point1A = () => {
             {
                 !selected ? 
                 <div>
-                    <div className = "starter_image" style = {{backgroundImage:`url(${A_1_1A})`}}>
+                    <div className = "point_1a1" style = {{backgroundImage:`url(${A_1_1A})`}}>
                     </div>
                     <div className = "textBox">
                     <p>DANCE! Katie loved to dance and would often dance for hours without music!</p>

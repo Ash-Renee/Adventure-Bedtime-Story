@@ -49,6 +49,128 @@ body{
   align-items: center;
 
 }
+
+.point_1a1{
+  width: 500px; 
+  height: 700px;
+  border: 1px solid black;
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: center;
+
+}
+
+.point_1a2{
+  width: 700px; 
+  height: 700px;
+  border: 1px solid black;
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: center;
+}
+
+.astart{
+  width: 500px; 
+  height: 700px;
+  border: 1px solid black;
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+
+}
+
+.point1{
+  width: 900px; 
+  height: 700px;
+  border: 1px solid black;
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+}
+.point2a1{
+  width: 500px; 
+  height: 500px;
+  border: 1px solid black;
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+}
+.point2a2{
+  width: 500px; 
+  height: 700px;
+  border: 1px solid black;
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+}
+
+.end1{
+  width: 1200px; 
+  height: 700px;
+  border: 1px solid black;
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+}
+.textBox2{
+  width: 900px;
+  height: 100px;
+  background-color: gray;
+  color: white;
+  /* position: relative; 
+  justify-content: center; */
+  bottom: 91px;
+  display: inline-block;
+  /* align-items: center; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.textBoxLarge{
+  width: 900px;
+  height: 120px;
+  background-color: gray;
+  color: white;
+  /* position: relative;
+  justify-content: center; */
+  bottom: 91px;
+  /* align-items: center; */
+  opacity: .85;
+}
+
 /* #header{
   min-height: 150px;
   background-color: green;

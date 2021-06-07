@@ -15,11 +15,11 @@ const StoryAStart = () => {
             
                 !selected ?
                 <div>
-                    <div className = "img" style = {{backgroundImage:`url(${A_Start})`}}>
+                    <div className = "astart" style = {{backgroundImage:`url(${A_Start})`}}>
                     </div>
                     <div className = "textBox">
                         <p>Once upon a time there was a young princess named Katie. 
-                            She lived in a faraway kingdom called Illomorrow with her mother,
+                            She lived in a faraway kingdom called Thinoka with her mother,
                             father, and little sister Maggie.</p>
                         <Link onClick={() => setSelected(true)} to="1">Let's Go</Link>
                     </div>

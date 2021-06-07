@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Router, Link } from '@reach/router';
 import Point1A2 from './Point1A2';
-import A_Start from '../../../../images/A_Start.jpeg';
+import A_1A_P1 from '../../../../images/A_1A_P1.jpg';
 
 const Point1A1 = () => {
     const [selected, setSelected] = useState(false);
@@ -10,8 +10,8 @@ const Point1A1 = () => {
             {
                 !selected ?
                     <div>
-                        <div className="img" style={
-                            { backgroundImage: `url(${A_Start})` }}>
+                        <div className="point_1a1" style={
+                            { backgroundImage: `url(${A_1A_P1})` }}>
                         </div>
                         <div className="textBox">
                             <p>One day, Katie was dancing in the castle courtyard when she bumped

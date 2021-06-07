@@ -11,7 +11,7 @@ const Point1 = () => {
             {
                 !selected ? 
                 <div>
-                    <div className = "img" style = {{backgroundImage:`url(${A_1A})`}}>
+                    <div className = "point1" style = {{backgroundImage:`url(${A_1A})`}}>
                     </div>
                     <div className = "textBox">
                     <p>Katie loved to read and cartwheel and sword fight! But the thing she loved to do most of all was…</p>
