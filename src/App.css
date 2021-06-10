@@ -185,6 +185,16 @@ body{
   opacity: .85;
 }
 
+.end4{
+  width: 950px; 
+  height: 450px;
+  border: 1px solid black;
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+}
+
 
 
 

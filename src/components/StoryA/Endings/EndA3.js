@@ -1,6 +1,5 @@
 import React, { useState, useContext } from 'react';
-import { Router, Link } from '@reach/router';
-import Homepage from '../../Homepage';
+import { Link } from '@reach/router';
 import End3 from '../../../images/End3.jpg';
 import Done from '../../../Context/Done';
 
@@ -23,7 +22,7 @@ const EndA3 = () => {
                                 Maggie as she closed her eyes.  "You're welcome, Maggie", said Princess Katie as she
                                 turned off the lights.  
                 </p>
-                            <Link onClick={() => setSelected(true)} to="/">Home</Link>
+                            <Link onClick={() => setDone(true)} to="/">Home</Link>
 
                         </div>
                     </div>

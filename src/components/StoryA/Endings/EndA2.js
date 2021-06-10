@@ -1,6 +1,5 @@
 import React, { useState, useContext } from 'react';
-import { Router, Link } from '@reach/router';
-import Homepage from '../../Homepage';
+import { Link } from '@reach/router';
 import End_A2 from '../../../images/End_A2.jpg';
 import Done from '../../../Context/Done';
 

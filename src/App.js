@@ -1,7 +1,7 @@
 import './App.css';
 import { Router } from '@reach/router';
 import Homepage from './components/Homepage';
-import React, { useState, useEffect, createContext} from 'react';
+import React, { useState} from 'react';
 import Done from './Context/Done';
 
 

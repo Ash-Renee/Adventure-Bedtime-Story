@@ -2,8 +2,6 @@ import React, { useState } from 'react';
 import { Router, Link } from '@reach/router';
 import Point1 from './Point1/Point1';
 import A_Start from '../../images/A_Start.jpeg';
-import Point1A2 from './Point1/Point1A/Point1A2';
-
 
 
 const StoryAStart = () => {
