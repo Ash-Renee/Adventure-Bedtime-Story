@@ -8,14 +8,14 @@ const StoryAStart = () => {
     const [selected, setSelected] = useState(false);
     return (
     
-        <div className = "wrapper">
+        <div>
             {
             
                 !selected ?
-                <div>
+                <div className="wrapper">
                     <div className = "astart" style = {{backgroundImage:`url(${A_Start})`}}>
                     </div>
-                    <div className = "textBox">
+                    <div className = "textBox2">
                         <p>Once upon a time there was a young princess named Katie. 
                             She lived in a faraway kingdom called Thinoka with her mother,
                             father, and little sister Maggie.</p>

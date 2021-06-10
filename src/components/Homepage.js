@@ -10,6 +10,7 @@ const Homepage = (props) => {
     const {done, setDone} = useContext(Done);
     useEffect(()=>{
         setSelected(false);
+        setDone(false);
     },[done])
     return (
         <div className="wrapper">
@@ -19,10 +20,13 @@ const Homepage = (props) => {
                 <div className = "starter_image" style = {{backgroundImage:`url(${starter_image})`}}>
                     
                 </div>
-                <div className="textBox">
+                <div className="textBoxLarge">
                 <p>Welcome to your bedtime story!  Please choose your story:</p>
                 <Link onClick = {() => setSelected(true)} to="storya">Story A</Link>
-                {/* <Link to="storyb">Story B</Link> */}
+                <br />
+                <Link onClick = {() => setSelected(true)} to="storyb">Story B</Link>
+                <br />
+                <Link onClick = {() => setSelected(true)} to="storyc">Story C</Link>
                 </div>
                 </>
                 :
