@@ -8,7 +8,7 @@ import A_1A_P2 from '../../../../images/A_1A_P2.jpg';
 const Point1A2 = () => {
     const [selected, setSelected] = useState(false);
     return (
-        <div>
+        <div className="wrapper">
             {
                 !selected ?
                     <div>
