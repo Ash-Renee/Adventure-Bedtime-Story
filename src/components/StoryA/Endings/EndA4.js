@@ -10,7 +10,7 @@ const EndA4 = () => {
         <div className="wrapper">
         {
             !selected ?
-                <div>
+                <div className="wrapper">
                     <div className="end4" style={
                         { backgroundImage: `url(${End4})` }}>
                     </div>

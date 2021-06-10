@@ -8,11 +8,11 @@ const StoryAStart = () => {
     const [selected, setSelected] = useState(false);
     return (
     
-        <div className = "wrapper">
+        <div>
             {
             
                 !selected ?
-                <div>
+                <div className = "wrapper">
                     <div className = "astart" style = {{backgroundImage:`url(${A_Start})`}}>
                     </div>
                     <div className = "textBox">
