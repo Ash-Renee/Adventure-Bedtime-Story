@@ -1,6 +1,6 @@
 import React, { useState }from 'react';
 import { Router, Link } from '@reach/router';
-import EndA2 from '../../Endings/EndA2';
+import EndA2 from '../../../Endings/EndA2';
 import A_2B_P2 from '../../../../images/A_2B_P2.jpg';
 
 

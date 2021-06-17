@@ -1,7 +1,7 @@
 import React, { useState, useContext } from 'react';
 import { Link } from '@reach/router';
-import End_A2 from '../../../images/End_A2.jpg';
-import Done from '../../../Context/Done';
+import End_A2 from '../../images/End_A2.jpg';
+import Done from '../../Context/Done';
 
 const EndA2 = () => {
     const [selected, setSelected] = useState(false);
